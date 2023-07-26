@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            /* Add background image URL and other properties */
+            background-image: url("/static/img/05.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Fixed background */
+            background-color: #26b3e2; /* Fallback background color */
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+        color: #02274f;
+    }
+    .main-content p {
+        font-size: 1.3rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        background-color: #89bdf0; /* Light gray background */
+        padding: 10px; /* Add some padding to the highlighted area */
+        border-radius: 5px; /* Rounded corners for the highlight */
+        box-shadow: 0 4px 8px rgba(13, 11, 11, 0.1); /* Add a subtle shadow */
+    }
+   
+    /* Highlighted text styles */
+    .main-content p {
+        font-size: 1.3rem;
+        line-height: 1.6;
+        margin-bottom: 2rem;
+        background-color: #89bdf0; /* Light gray background */
+        padding: 10px; /* Add some padding to the highlighted area */
+        border-radius: 5px; /* Rounded corners for the highlight */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        font-weight: bold; /* Make the text bold */
+    }
+
+    /* Add extra spacing between paragraphs */
+    .main-content p  {
+        margin-top: 1.5rem;
+    }
+
+
+    /* Add extra spacing between paragraphs */
+    .main-content p + p {
+        margin-top: 1.5rem;
+    }
+        .header {
+            background-color: rgba(137, 182, 231, 0.9);
+            color: #fff;
+            padding: 2rem 0;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .main-content {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .main-content p {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .button {
+    background-color: #032c57;
+    color: #3ebff7;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    }
+        
+    .button:hover {
+    background-color: #032c57;
+    }
+
+    
+    .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+
+
+        .projects {
+            padding: 4rem 0;
+            background-color: #9ac3ec;
+            text-align: center;
+        }
+        .container.project-links a {
+        font-weight: bold;
+    }
+        .projects h2 {
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: #02274f;
+        }
+        .project-links h2 {
+        color: #02274f; /* Replace with your desired color code */
+    }
+    .project-item h3 {
+        font-weight: bold;
+    }
+
+    /* Highlight the project items on hover */
+    .project-item:hover {
+        background-color: #98caf3; /* Replace with your desired highlight color code */
+    }
+        .project-item {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 1.5rem;
+            border: 1px solid #0b0a0a;
+            border-radius: 10px;
+            background-color: #add0ed;
+            box-shadow: 0 4px 8px rgba(16, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+
+        .project-item h3 {
+            font-size: 1.5rem;
+            color: #02274f;
+        }
+
+        .footer {
+            background-color: rgba(121, 159, 199, 0.9);
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 1.1rem;
+        }
+
+        .custom-link {
+            color: #f2f2f3;
+        }
+        .btn-about-myself {
+        background-color: #1569e7; /* Green color */
+        color: #ede5e5; /* White text color */
+    }
+
+    /* Custom styles for "Contact Me" button */
+    .btn-contact-me {
+        background-color: #1569e7; /* Red color */
+        color: #ede5e5; /* White text color */
+    }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <p>Hello, I'm Nutan Mali, a passionate and creative web developer. I specialize in building responsive and
+                user-friendly web applications using Python Flask and modern web technologies.</p>
+            <p>My expertise includes Web Development, API Development, and Database Integration. I love learning new
+                technologies and turning innovative ideas into reality.</p>
+            <p>Thank you for visiting my portfolio. If you have any exciting projects or opportunities, feel free to
+                contact me!</p>
+            <!-- Add buttons, projects, or any other content you want to showcase here -->
+        </div>
+        <!-- <img src="/static/img/o5.jpg" alt="Your Image" class="home-image"> -->
+
+        <div class="projects">
+            <h2>My Projects</h2>
+            <!-- Main Content -->
+<div class="main-content">
+    <div class="container">
+        <p>Hello, I'm Nutan Mali, a passionate and creative web developer. I specialize in building responsive and
+            user-friendly web applications using Python Flask and modern web technologies.</p>
+        <p>My expertise includes Web Development, API Development, and Database Integration. I love learning new
+            technologies and turning innovative ideas into reality.</p>
+        <p>Thank you for visiting my portfolio. If you have any exciting projects or opportunities, feel free to
+            contact me!</p>
+
+        <div class="row mt-4">
+            <!-- Flask Todo App with Firebase -->
+            <div class="col-md-4">
+                <div class="project-item">
+                    <h3>Flask Todo App with Firebase</h3>
+                    <p>This is a Flask-based Todo application deployed on Google Cloud Platform (GCP) and uses
+                        Firebase for real-time data storage and authentication. Users can create, update, and
+                        delete tasks in the app.</p>
+                    <p>Technologies used: Flask, Google Cloud Platform (GCP), Firebase</p>
+                    <p>Link: <a href="https://shivrajya-test1.el.r.appspot.com/" target="_blank">Visit the App</a></p>
+                </div>
+            </div>
+
+            <!-- User Dashboard with Sign-in/Sign-out -->
+            <div class="col-md-4">
+                <div class="project-item">
+                    <h3>User Dashboard with Sign-in/Sign-out</h3>
+                    <p>This project is a user dashboard with authentication functionality that allows users to sign
+                        in and sign out. The user's data is stored in a database to provide personalized experiences.</p>
+                    <p>Technologies used: Django, HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+
+            <!-- Django Library Management -->
+            <div class="col-md-4">
+                <div class="project-item">
+                    <h3>Django Library Management</h3>
+                    <p>This is a web application built with Django that allows users to manage books, borrow, and
+                        return them in a library setting.</p>
+                        <p>Technologies used: Django, Bootstrap, CSS ,HTML, SQLite</p>
+                </div>
+            </div>
+ <!-- Flask Todo App with Flask-SQLAlchemy and SQLite -->
+ <div class="col-md-4">
+    <div class="project-item">
+        <h3>Flask Todo App with Flask-SQLAlchemy and SQLite</h3>
+        <p>This is a Flask-based Todo application that uses Flask-SQLAlchemy and SQLite database for
+            data storage. Users can create, update, and delete tasks in the app. It provides a simple and
+            efficient way to manage tasks and mark them as completed.</p>
+        <p>Technologies used: Flask, Flask-SQLAlchemy, SQLite</p>
+    </div>
+</div>
+            <!-- Add more project items here (display them side by side) -->
+
+            <!-- Flask Image App -->
+            <div class="col-md-4">
+                <div class="project-item">
+                    <h3>Flask Image App</h3>
+                    <p>This is a Flask web app that enables users to upload, view, and share images with others. It
+                        uses Flask and SQLite to store the image data.</p>
+                        <p>Technologies used: Flask, Flask-SQLAlchemy, Bootstrap, JavaScript, CSS, HTML, SQLite</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="footer">
+        <div class="container">
+            <p>Contact: nutanmali2018.com | Phone: +919699790862</p>
+            <p>Follow Me: <a href="https://www.linkedin.com/in/nutan-mali-47a49516b/" target="_blank"
+                    class="custom-link">LinkedIn</a></p>
+        </div>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto mt-4 mb-4">
+        <a href="/nutan_portfolio/about" class="btn btn-primary" type="button" style="background-color: #084179; color: #e8dfdf;">About Myself</a>
+        <a href="/nutan_portfolio/contact" class="btn btn-primary" type="button" style="background-color: #084179; color: #e8dfdf;">Contact Me</a>
+    </div>
+    
+    
+    </div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
